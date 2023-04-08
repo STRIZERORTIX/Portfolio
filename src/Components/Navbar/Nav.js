@@ -1,13 +1,11 @@
 import React from 'react';
 import './Nav.css';
-
-
 const Navbar = () => {
     return(
         <>
             <nav>
                 <div className="Logo">
-                    <p>Abhinandhan's Portfolio<span>.</span></p>
+
                 </div>
                 <div className="Nav-links">
                     <li>
@@ -20,9 +18,9 @@ const Navbar = () => {
                     <li>
                         <a href="/aboutme">About Me</a>
                     </li>
-                    <div className="Talkmi" type="button" >
-                        <a>Let's Talk</a>
-                    </div>
+                    {/*<div className="Talkmi" type="button" >*/}
+                    {/*    <a>Let's Talk</a>*/}
+                    {/*</div>*/}
                 </div>
 
             </nav>

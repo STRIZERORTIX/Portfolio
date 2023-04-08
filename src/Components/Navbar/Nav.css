@@ -2,10 +2,6 @@
 
 .Logo{
     width: 100px;
-    /*color: #000;*/
-    /*font-size: 1.3rem;*/
-    /*font-family: 'Suez One', serif;*/
-    /*padding-left: 52px;*/
 }
 
 .Logo p{
@@ -34,6 +30,7 @@ nav {
     /*margin-top: 3.8rem;*/
     /*padding-left: 20px;*/
     width: 100%;
+    margin:20px;
 }
 nav li{
     margin-left: 70px;
@@ -50,7 +47,8 @@ nav li a{
     font-weight: bold;
 }
 nav li a:hover{
-    color: rgb(52, 22, 119);
+    color: rgb(0, 2, 114);
+
 }
 
 nav li a::after{
@@ -85,7 +83,7 @@ nav li a:hover::after{
     cursor: pointer;
 }
 .Talkmi:hover{
-    background-color: #000000;
+    background-color: #000272;
     color: #3f51f1;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 5px 5px 5px #C6DDEC;
 }
